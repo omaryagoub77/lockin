@@ -1,0 +1,13 @@
+#main {
+  outline: none;
+}
+
+#main > section:not(.hero) {
+  content-visibility: auto;
+  contain-intrinsic-size: 1200px 900px;
+}
+
+#main:focus-visible {
+  outline: 2px solid var(--accent-green-soft);
+  outline-offset: 6px;
+}

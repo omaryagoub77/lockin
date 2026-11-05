@@ -1,0 +1,22 @@
+{
+  "name": "lockin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "html-to-image": "^1.11.13",
+    "motion": "^12.43.0",
+    "ogl": "^1.0.11",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
