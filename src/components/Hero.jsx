@@ -1,6 +1,7 @@
 import AcidSquares from './AcidSquares.jsx';
 import EffectBoundary from './EffectBoundary.jsx';
 import PhoneFrame from './PhoneFrame.jsx';
+import apk from '../assets/apk/lockin.apk';
 import todayScreen from '../assets/screens/today.jpg';
 import { ArrowRight } from './icons.jsx';
 import SoapBubbleLink from './SoapBubbleLink.jsx';
@@ -70,6 +71,9 @@ export default function Hero() {
           </p>
 
           <div className="hero__actions">
+            <a className="btn btn--primary" href={apk} download="lockin.apk">
+              Download for Android
+            </a>
             <SoapBubbleLink className="btn btn--primary" href="#product">
               Explore the app
               <ArrowRight />

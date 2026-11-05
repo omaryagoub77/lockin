@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ command }) => ({
   base: command === 'build' ? '/lockin/' : '/',
+  assetsInclude: ['**/*.apk'],
   plugins: [react()],
   resolve: {
     alias: {

@@ -1,4 +1,5 @@
 import { ArrowRight, ArrowUp } from './icons.jsx';
+import apk from '../assets/apk/lockin.apk';
 import SoapBubbleLink from './SoapBubbleLink.jsx';
 import './Closing.css';
 
@@ -23,6 +24,9 @@ export default function Closing() {
             tomorrow’s allowance tonight, and let Lockin hold the line.
           </p>
           <div className="closing__actions">
+            <a className="btn btn--primary" href={apk} download="lockin.apk">
+              Download for Android
+            </a>
             <SoapBubbleLink className="btn btn--primary" href="#product">
               Walk through Lockin
               <ArrowRight />
